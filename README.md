@@ -1,0 +1,1 @@
+`npm run start`, `npm run start:json-server`

@@ -1,0 +1,112 @@
+{
+  "carTypes": [
+    {
+      "id": 1,
+      "name": "Икономична"
+    },
+    {
+      "id": 2,
+      "name": "Комби"
+    },
+    {
+      "id": 3,
+      "name": "Луксозна"
+    },
+    {
+      "id": 4,
+      "name": "SUV"
+    },
+    {
+      "id": 5,
+      "name": "Карго"
+    }
+  ],
+  "fuelTypes": [
+    {
+      "id": 1,
+      "name": "Бензин"
+    },
+    {
+      "id": 2,
+      "name": "Дизел"
+    },
+    {
+      "id": 3,
+      "name": "Хибрид"
+    },
+    {
+      "id": 4,
+      "name": "Електрическа"
+    }
+  ],
+  "cars": [
+    {
+      "carTypeID": 1,
+      "brand": "Ford",
+      "model": "Focus",
+      "fuelTypeID": 2,
+      "numberOfSeats": "4+1",
+      "pictureUrl": "https://webimg.secondhandapp.at/w-i-mgl/5ddcf5ab4e82400037b811d7",
+      "pricePerDay": "25",
+      "count": "30",
+      "id": 1
+    },
+    {
+      "carTypeID": 4,
+      "brand": "Dacia",
+      "model": "Duster",
+      "fuelTypeID": 2,
+      "numberOfSeats": "4+1",
+      "pictureUrl": "https://i.ytimg.com/vi/fUBpaN93w1k/maxresdefault.jpg",
+      "pricePerDay": "50",
+      "count": 29,
+      "id": 2
+    },
+    {
+      "carTypeID": 3,
+      "brand": "Mercedes",
+      "model": "C-Class",
+      "fuelTypeID": 2,
+      "numberOfSeats": "4+1",
+      "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Mercedes-Benz_C_200_Avantgarde_%28W_205%29_%E2%80%93_Frontansicht%2C_26._April_2014%2C_D%C3%BCsseldorf.jpg",
+      "pricePerDay": "100",
+      "count": "10",
+      "id": 3
+    },
+    {
+      "carTypeID": 3,
+      "brand": "Cadillac",
+      "model": "Brougham",
+      "fuelTypeID": 1,
+      "numberOfSeats": "4+1",
+      "pictureUrl": "https://moneyinc.com/wp-content/uploads/2020/10/Cadillac-Brougham.jpg",
+      "pricePerDay": "200",
+      "count": "2",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "fullName": "1",
+      "email": "1",
+      "phoneNumber": "1",
+      "id": 1
+    },
+    {
+      "fullName": "2",
+      "email": "2",
+      "phoneNumber": "2",
+      "id": 2
+    }
+  ],
+  "rents": [
+    {
+      "carID": 2,
+      "price": 237.5,
+      "userID": 1,
+      "startDateTime": "2022-05-31T06:30:00.000Z",
+      "endDateTime": "2022-06-04T06:30:00.000Z",
+      "id": 1
+    }
+  ]
+}
